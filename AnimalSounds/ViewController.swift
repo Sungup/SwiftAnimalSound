@@ -15,6 +15,20 @@ class ViewController: UIViewController {
     // Do any additional setup after loading the view, typically from a nib.
   }
 
+  /// Outlets
+  @IBOutlet weak var animalSoundLabel: UILabel!
+
+  /// Controls
+  @IBAction func catButtonTapped(_ sender: UIButton) {
+    animalSoundLabel.text = "Meow!"
+  }
+
+  @IBAction func dogButtonTapped(_ sender: UIButton) {
+    animalSoundLabel.text = "Woof!"
+  }
+
+  @IBAction func cowButtonTapped(_ sender: UIButton) {
+    animalSoundLabel.text = "Moo!"
+  }
 
 }
-
