@@ -54,14 +54,46 @@
 		F8A51810220AB7BD00099E2D /* AnimalSounds */ = {
 			isa = PBXGroup;
 			children = (
-				F8A51811220AB7BD00099E2D /* AppDelegate.swift */,
-				F8A51813220AB7BD00099E2D /* ViewController.swift */,
-				F8A51815220AB7BD00099E2D /* Main.storyboard */,
+				F8A51826220AB82500099E2D /* UI */,
 				F8A51818220AB7BE00099E2D /* Assets.xcassets */,
-				F8A5181A220AB7BE00099E2D /* LaunchScreen.storyboard */,
-				F8A5181D220AB7BE00099E2D /* Info.plist */,
+				F8A51825220AB81100099E2D /* Controllers */,
+				F8A51824220AB80700099E2D /* Resources */,
+				F8A51823220AB7CB00099E2D /* Support Files */,
 			);
 			path = AnimalSounds;
+			sourceTree = "<group>";
+		};
+		F8A51823220AB7CB00099E2D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F8A51811220AB7BD00099E2D /* AppDelegate.swift */,
+				F8A5181D220AB7BE00099E2D /* Info.plist */,
+			);
+			name = "Support Files";
+			sourceTree = "<group>";
+		};
+		F8A51824220AB80700099E2D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F8A51825220AB81100099E2D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F8A51813220AB7BD00099E2D /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		F8A51826220AB82500099E2D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F8A51815220AB7BD00099E2D /* Main.storyboard */,
+				F8A5181A220AB7BE00099E2D /* LaunchScreen.storyboard */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
