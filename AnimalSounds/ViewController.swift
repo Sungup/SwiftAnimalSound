@@ -20,15 +20,21 @@ class ViewController: UIViewController {
 
   /// Controls
   @IBAction func catButtonTapped(_ sender: UIButton) {
-    animalSoundLabel.text = "Meow!"
+    playSound(animals["cat"]!)
   }
 
   @IBAction func dogButtonTapped(_ sender: UIButton) {
-    animalSoundLabel.text = "Woof!"
+    playSound(animals["dog"]!)
   }
 
   @IBAction func cowButtonTapped(_ sender: UIButton) {
-    animalSoundLabel.text = "Moo!"
+    playSound(animals["cow"]!)
+
   }
 
+  /// Methods
+  func playSound(_ animal: AnimalSound) {
+    animalSoundLabel.text = animal.text
+    animal.sound.play()
+  }
 }
